@@ -25,11 +25,11 @@ while True:
   
   print "==> check dependencies are available or not"
   dependency_present = False
-  if depends_on = None:
+  if depends_on is None:
     dependency_present = True
 
   dc = DependencyChecker()
-  while dependency_present != True
+  while dependency_present != True:
     dependency_present = dc.checkdependencies(depends_on)
     time.sleep(30)
 
